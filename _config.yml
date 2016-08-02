@@ -1,12 +1,26 @@
-layout_spectrum: 0.5157234
-typography_spectrum: 0.9052933
-color:
-  lightness: 0.639679
-  brandStrength: 0.4418753
-  saturation: 0.209439
-  rhythmicContrast: 0.5512764
-  brandColors:
-    - '#B2A392'
-    - '#30271F'
-    - '#FFFDF0'
+layout_spectrum: 0.4831366
 name: Practice Yoga
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+color:
+  brandStrength: 0.4418753
+  lightness: 0.658516
+  saturation: 0.7984823
+  rhythmicContrast: 0.8052276
+  brandColors:
+    - '#DFEDF9'
+    - '#7A756B'
+    - '#0E0F1F'
+    - '#B4B1AA'
+    - '#0095B7'
+typography_spectrum: 0.2875211
